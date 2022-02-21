@@ -21,12 +21,11 @@ body {
     font-family:arial, sans-serif;
 }
 
-/* Header
+/* HEADER
 *********** */
 
 #site_header {
     margin: 20px 0;
-    /* background-color:violet; */
     height: 100px;
 }
 
@@ -35,6 +34,7 @@ body {
     height: 50px;
     padding-right: 15px;
     border-right: 1px solid #B3B3B3;
+    margin-bottom: 10px;
 }
 
 
@@ -51,8 +51,10 @@ body {
 }
 
 
-/* Main
+/* MAIN
 *********** */
+
+/* Hero */
 
 .hero{
 
@@ -87,17 +89,10 @@ body {
     font-size:40px;
 }
 
-
-
-.top_content {
-   
-    /* background-color: rgb(124, 160, 201); */
-   /*  height: 100px; */
-}
-
+/* Container */
 
 .top_content>h1 {
-font-weight: 800;
+    font-weight: 800;
 }
 
 
@@ -107,7 +102,6 @@ font-weight: 800;
 
 .row {
     height: 500px;
-    /* background-color: blue; */
 }
 
 
@@ -116,7 +110,6 @@ font-weight: 800;
     height: 200px;
     width: 20%;
     float:left;
-    /* background-color: rgb(124, 160, 201); */
 }
 
 
@@ -128,7 +121,6 @@ font-weight: 800;
     height: 245px;
     width: 100%;
     filter:brightness(80%)
-    /* background-color: #b3b3b3; */
 }
 
 
@@ -136,24 +128,19 @@ font-weight: 800;
     padding:1px;
 }
 .cl_text>h3 {
-margin:10px 0;
+    margin:10px 0;
 }
 
 .cl_text>p {
     color:#B3B3B3;
 }
 
-
-
 .content {
     margin: 2%;
     height: 300px;
     width: 56%;
     float:left;
-    /* background-color: rgb(124, 160, 201); */
-
 }
-
 
 .content>img {
     object-fit: cover;
@@ -172,7 +159,6 @@ margin:10px 0;
     height: 100px;
     margin:60px 0;
     text-align: center;
-    /* background-color: purple; */
 }
 
 #heart{
