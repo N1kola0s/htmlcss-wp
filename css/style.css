@@ -154,11 +154,17 @@ body {
 *********** */
 
 #site_footer {
-    margin: 10px 0 10px;
+    
     height: 100px;
     margin:60px 0;
     text-align: center;
 }
+
+
+footer>p {
+    padding:50px;
+}
+
 
 #heart{
     color:red;
