@@ -30,6 +30,23 @@ body {
 }
 
 
+.logo {
+    height: 50px;
+    padding-right: 15px;
+    border-right: 1px solid #B3B3B3;
+}
+
+
+.menu {
+
+    margin:15px 0;
+    font-family: sans-serif;
+    color: #B3B3B3;
+    text-decoration: none;
+
+}
+
+
 /* Main
 *********** */
 
