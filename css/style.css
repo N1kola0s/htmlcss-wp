@@ -25,7 +25,7 @@ body {
 
 #site_header {
     margin: 20px 0;
-    background-color:violet;
+    /* background-color:violet; */
     height: 100px;
 }
 
@@ -38,23 +38,54 @@ body {
 
 
 .menu {
-
     margin:15px 0;
-    font-family: sans-serif;
-    color: #B3B3B3;
-    text-decoration: none;
-
 }
 
 
+.menu>a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #B3B3B3;
+    padding: 5px;
+}
 /* Main
 *********** */
 
-.main_img {
-    margin:20px 0 20px;
-    height: 300px;
-    background-color:rgb(231, 198, 112);
+.hero{
+
+    position:relative;
 }
+.hero_img {
+    margin:20px 0 20px;
+    background-image: url("../img/banner.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(85%);
+    border-radius: 15px;
+    
+}
+
+
+.hero_text {
+    position:absolute;
+    width: 52%;
+    bottom:75px;
+    left:25px;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 25px;
+}
+
+
+.hero_text>h2 {
+    font-size:40px;
+}
+
+
+
 
 .top_content {
    
