@@ -18,7 +18,8 @@
 body {
     width: 1440px;
     margin:auto;
-    font-family:arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 /* HEADER
@@ -68,7 +69,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: brightness(85%);
+    filter: brightness(80%);
     border-radius: 15px;
     
 }
@@ -76,23 +77,22 @@ body {
 
 .hero_text {
     position:absolute;
-    width: 52%;
+    width: 50%;
     bottom:75px;
     left:25px;
-    font-family: sans-serif;
     color: white;
     margin-left: 25px;
 }
 
 
 .hero_text>h2 {
-    font-size:40px;
+    font-size:36px;
 }
 
 /* Container */
 
 .top_content>h1 {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 
