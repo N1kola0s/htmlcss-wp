@@ -18,7 +18,7 @@
 body {
     width: 1440px;
     margin:auto;
-    font-family: sans-serif;
+    font-family:arial, sans-serif;
 }
 
 /* Header
@@ -170,5 +170,11 @@ margin:10px 0;
 #site_footer {
     margin: 10px 0 10px;
     height: 100px;
-    background-color: purple;
+    margin:60px 0;
+    text-align: center;
+    /* background-color: purple; */
+}
+
+#heart{
+    color:red;
 }
