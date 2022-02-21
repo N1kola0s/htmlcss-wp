@@ -1,0 +1,79 @@
+/* General rules
+****************** */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+body {
+    width: 1440px;
+    margin:auto;
+}
+
+/* Header
+*********** */
+
+#site_header {
+    margin: 20px 0;
+    background-color:violet;
+    height: 100px;
+}
+
+
+/* Main
+*********** */
+
+.main_img {
+    margin:20px 0 20px;
+    height: 300px;
+    background-color:rgb(231, 198, 112);
+}
+
+.top_content {
+   
+    background-color: rgb(124, 160, 201);
+    height: 100px;
+}
+
+.row {
+    height: 450px;
+    background-color: blue;
+}
+
+
+.sidebar {
+    margin:2%;
+    height: 400px;
+    width: 21%;
+    float:left;
+    background-color: rgb(124, 160, 201);
+}
+
+
+.content {
+    margin: 2% 0;
+    height: 400px;
+    width: 50%;
+    float:left;
+    background-color: rgb(124, 160, 201);
+
+}
+
+/* Footer
+*********** */
+
+#site_footer {
+    margin: 10px 0 10px;
+    height: 100px;
+    background-color: purple;
+}
